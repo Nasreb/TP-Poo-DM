@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Météo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<div>
+  		<a href="/adresse">Revenir à la page précédente</a>
+	</div>
+	<h1><p th:text="'Bonjour !'" /></h1>
+	<h2><p th:text="'Il fera ' + ${temp} + ' degré à ' + ${adr} + ' et la température ressentie sera de ' + ${ress} + ' degré.'" /></h2>
+</body>
+</html>
