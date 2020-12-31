@@ -1,11 +1,9 @@
 # TP-Poo-DM
 
 Spring Data JPA
-
 Persister les données dans les magasins SQL avec l'API Java Persistence à l'aide de Spring Data et Hibernate.
 
 Spring Web
-
 Créez des applications Web, y compris RESTful, à l'aide de Spring MVC. Utilise Apache Tomcat comme conteneur intégré par défaut.
 
 Validation 
